@@ -1,5 +1,6 @@
 
 const isProduction = process.env.NODE_ENV === 'production';
+console.log(isProduction)
 
 const url = isProduction ? 'https://github.com/jackchen0120/' : 'http://localhost:8088/';
 
