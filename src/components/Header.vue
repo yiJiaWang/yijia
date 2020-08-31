@@ -1,6 +1,6 @@
 <!--
  描述: 头部header模板
- 作者: Jack Chen
+ 作者: yi jia 
  日期: 2020-06-20
 -->
 
@@ -14,13 +14,13 @@
             <router-link to='/home' class="active">首页</router-link>
           </li>
           <li>
-            <a href="https://jackchen0120.github.io/vueDataV/" target="_blank">大数据可视化平台</a>
+            <a href="https://cn.vuejs.org/" target="_blank">vue</a>
           </li>
           <li>
-            <a href="https://juejin.im/user/5eafd5fff265da7be959f56a" target="_blank">掘金·博文</a>
+            <a href="https://www.baidu.com/" target="_blank">百度</a>
           </li>
           <li>
-            <a href="https://blog.csdn.net/qq_15041931" target="_blank">CSDN·博文</a>
+            <a href="https://react.docschina.org/" target="_blank">react</a>
           </li>
         </ul>
       </div>
@@ -38,7 +38,7 @@
       </Dropdown>
     </div>
 
-    <a href="https://github.com/jackchen0120" target="_blank" class="github-corner">
+    <a href="https://github.com/yiJiaWang/yijia.git" target="_blank" class="github-corner">
       <svg width="82" height="82" viewBox="0 0 250 250">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> 
         <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" class="octo-arm"></path> 
