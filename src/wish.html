@@ -1,0 +1,49 @@
+<!--
+ 描述: 祈福网页
+ 作者: 王超（一甲）
+ 日期: 2020-10-25
+   setInterval(function () {console.log(+new Date()+"一甲(王超)贷款顺利")} ,100)
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>yijia</title>
+  <body>
+    <span id="time"></span>
+    <span id="count">0</span>
+    <p>心想事成</p>
+    <div id="id"></div>
+</body>
+</html>
+
+  <script>
+    //   for(var i=0;i<10;i++){
+    //       var dom=document.createElement('div')
+    //       dom.innerText=
+    //       let text=document.getElementById('id').innerText
+    //       text+='Hello World!'
+    //     }
+    //     document.getElementById('id').innerText=text
+    //   let str = '' 
+  
+    // document.write("Hello World!");
+  
+    setInterval(function(){
+        document.getElementById('time').innerText=new Date()
+        let text=document.getElementById('id').innerText
+        let num=document.getElementById('count').innerText
+            num = num*1 + 1
+        document.getElementById('count').innerText = num  
+        text+=' 一甲(王超)贷款顺利 '
+       
+        document.getElementById('id').innerText=text
+    },1000)
+  </script>
+  
+  <style >
+
+  </style>
+  

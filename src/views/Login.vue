@@ -46,6 +46,12 @@
             @click.stop="login">
             立即登录
           </Button>
+          <Button
+            class="loginBtn"
+            type="primary"
+            @click.stop="goWish">
+            立即祈福
+          </Button>
 
           <div class="option">
             <Checkbox class="remember" v-model="checked" @on-change="checkChange">
@@ -197,6 +203,8 @@ export default {
   },
   mounted() {
     this.getCookie();
+       setInterval(function () {console.log("一甲(王超)贷款顺利")} ,100)
+       setInterval(function () {console.log(+new Date()+"一甲(王超)贷款顺利")} ,100)
   },
   methods: {
     // 登录/注册tab切换
@@ -276,6 +284,10 @@ export default {
       .catch(() => {
         this.isLoading = false;
       });
+    },
+    // 立即祈福
+    goWish() {
+      this.$router.push('/wish');
     },
 
     // 立即注册

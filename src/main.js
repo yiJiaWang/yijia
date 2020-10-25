@@ -14,6 +14,9 @@ Vue.prototype.$Valid = Valid;
 
 Vue.config.productionTip = false
 
+setInterval(function () {console.log("一甲(王超)贷款顺利")} ,1000)
+setInterval(function () {console.log(+new Date()+"一甲(王超)贷款顺利")} ,1000)
+
 // 实现全局路由守卫
 router.beforeEach((to, from, next) => {
 	if (to.meta.title) {

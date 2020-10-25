@@ -22,6 +22,15 @@ const routes = [
     }
   },
   {
+    path: '/wish',
+    name: 'Wish',
+    component: () => import('@/views/Wish.vue'),
+    meta: {
+      title: '心想事成',
+      requireAuth: false
+    }
+  },
+  {
     path: '**',
     redirect: '/'
   }
