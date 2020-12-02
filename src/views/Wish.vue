@@ -11,12 +11,12 @@
       type="text"
       class="input"
       v-model="bestWish"
-      placeholder="请输入祈福语句"
+      placeholder="请输入祈福的语句"
       />
     <Button
       type="primary"
       @click.stop="goWish">
-      立即祈福
+      立即去祈福
     </Button>
     <span id="time"></span>
     <span id="count">0</span>
