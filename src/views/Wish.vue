@@ -35,13 +35,13 @@ export default {
   },
   data() {
     return {
-      bestWish : '一甲(王超)贷款顺利',
+      bestWish : '一甲(王超)身体健康，感情顺利',
       timer: ''
     }
   },
   mounted() {
     this.getCookie();
-       setInterval(function () {console.log("一甲(王超)贷款顺利")} ,1000)
+       setInterval(function () {console.log("一甲(王超)身体健康，感情顺利")} ,1000)
       
   },
   methods: {
